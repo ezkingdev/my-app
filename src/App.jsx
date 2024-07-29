@@ -1,7 +1,6 @@
 import React from 'react'
-import './App.css';
-import Intro from './components/IntroComp';
 import Weather from './components/Weather';
+import BlockData from './components/BlockData';
 
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
   return (
     <>
       <Weather />
+      <BlockData />
     </>
   )
 }

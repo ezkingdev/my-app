@@ -22,10 +22,10 @@ function Weather () {
 
     return (
         <>
-            <h1>Accra Weather</h1>
+            <h1 className="text-blue-300">Accra Weather</h1>
             {forecast && ( 
                 <div>
-                    <p>Temp: {forecast.current.temperature_2m}°C</p>
+                    <p className="">Temp: {forecast.current.temperature_2m}°C</p>
                     <p>Wind Speed: {forecast.current.wind_speed_10m}km/h</p>
                     <p>Humidity: {forecast.current.relative_humidity_2m}%</p>
                 </div>
